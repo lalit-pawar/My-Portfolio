@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="navbar">
+        <div class="left">Lalit's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Portfolio">Projects</a></li>
+            <li><a href="#Contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main" id="home" >
+      <section class="first_section">
+        <div class="left_section">
+          Hi, My name is <span class="purple">Lalit</span>
+
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="pdf/Lalit Pawar.pdf" class="btn-1" target="_blank"> Download Resume</a>
+
+            <a href="https://github.com/lalit-pawar" class="btn-2" target="_blank">Visit My Git-Hub</a>
+          </div>
+        </div>
+        <div class="right_section">
+          <img src="img/dev2.png" alt="" />
+        </div>
+      </section>
+    
+      
+      <section class="second_section" id="About">
+        <div class="container">
+          <div class="row">
+            <div class="abt_col-1">
+              <img src="img/lalit.jpg" alt="" />
+            </div>
+            <div class="abt_col-2">
+              <h1 class="sub_title">About Myself</h1>
+              <p>
+                As a website designer with a growing interest in blockchain
+                development,I possess excellent communication skills and
+                adaptability to new technologies. My strong analytical abilities
+                and problem-solving skills enable me to tackle complex
+                challenges effectively. With a self-motivated and
+                learning-oriented mindset, I strive for continuous improvement
+                and excellence in my work.
+              </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">
+                  Education
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+              </div>
+
+              <div class="tab-contents active-tab" id="education">
+                <ul>
+                  <li>
+                    <span> 2021-current</span> <br />
+                    Bachelor Of Engineering
+                  </li>
+                  <li>
+                    <span> Branch </span><br />
+                    Compter Engineering <br />
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span> 2023-Jan-Feb </span> <br />
+                    Internship At YBI Foundation
+                  </li>
+                  <li>
+                    <span> 2022 Dec- 2023 Jan </span> <br />
+                    Internship At Exposys Data-Labs<br />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <section class="Skills" id="Skills">
+              <h2 class="heading">Skills</h2>
+            
+              <div class="skills_container">
+
+                <div class="skills_box">
+                  <i class='bx bxl-java'></i> 
+                  <h3>Java Programming</h3>
+                <p>I have a good kn owledge of Java programming fundamentals and its basics. As I have completed a course in java programming and 100 days of problem solving challenge.</p>
+                <a href="#" class="btn">Read More </a>
+               </div>
+  
+              
+               <div class="skills_box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p> I have been learning web development from last few months. I have gain hands on experience by designing and building several projects using HTML, CSS and JS.</p>
+                <a href="#" class="btn">Read More </a>
+               </div>
+              
+  
+               <div class="skills_box">
+                <i class='bx bxl-codepen'></i>
+                <h3>Blockchain Development</h3>
+                <p>I have been exploring this facinaiting field and keeps learning about blockchain and building some projects to build a good knowledge base. </p>
+                <a href="#" class="btn">Read More </a>
+               </div>
+
+              
+              </div>
+
+       </section>
+
+
+       <section class="portfolio" id="Portfolio">
+        <h2 class="heading"> Latest <span> Projects </span></h2>
+
+         <div class="portfolio_container">
+
+          <div class="portfolio_box">
+            <img src="img/portfolio1.jpg" alt="">
+            <div class="portfolio_layer">
+              <h4>Blockchain Development</h4>
+              <p>A decentralized Healthcare sysytem which is more secure,transparent and efficient.</p>
+              <a href="https://github.com/lalit-pawar/MedTech" target="_blank"> <i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+            <div class="portfolio_box">
+              <img src="img/portfolio2.jpg" alt="">
+              <div class="portfolio_layer">
+                <h4>Web Development</h4>
+                <p>A basic gym website that I had build as a beginer in the field of web developement.</p>
+                <a href="https://github.com/lalit-pawar/MedTech" target="_blank"> <i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+
+              <div class="portfolio_box">
+                <img src="img/portfolio3.jpg" alt="">
+                <div class="portfolio_layer">
+                  <h4>Machine Learning </h4>
+                  <p>Stress Detection Project using Machine Learning.</p>
+                  <a href="https://github.com/lalit-pawar/Machine-Learning-Project" target="_blank"> <i class='bx bx-link-external'></i></a>
+                </div>
+              </div>
+
+              <div class="portfolio_box">
+                <img src="img/portfolio4.jpg" alt="">
+                <div class="portfolio_layer">
+                  <h4>Blockchain Development</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rem dolor </p>
+                  <a href="https://github.com/lalit-pawar/MedTech" target="_blank"> <i class='bx bx-link-external'></i></a>
+                </div>
+              </div>
+
+              <div class="portfolio_box">
+                <img src="img/portfolio5.jpg" alt="">
+                <div class="portfolio_layer">
+                  <h4>Blockchain Development</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rem dolor </p>
+                  <a href="https://github.com/lalit-pawar/MedTech" target="_blank"> <i class='bx bx-link-external'></i></a>
+                </div>
+              </div>
+
+                <div class="portfolio_box">
+                  <img src="img/portfolio6.jpg" alt="">
+                  <div class="portfolio_layer">
+                    <h4>Blockchain Development</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit iure</p>
+                    <a href="https://github.com/lalit-pawar/MedTech" target="_blank"> <i class='bx bx-link-external'></i></a>
+                  </div>
+                </div>
+          </div>
+         </div>
+       </section>
+ 
+        <section class="contact" id="Contact">
+          <h2>Contact Me</h2>
+          <div class="contact_container">
+            <form  name="submit-to-google-sheet">
+              <input type="text" name="Name" id="name" placeholder="Enter Your Name" required >
+
+              <input type="email" name="Email" id="email" placeholder="Enter Your email" required >
+
+              <input type="number" name="Number" id="number" placeholder="Enter Your Number"  required>
+
+              <input type="text" name="Subject" id="subject" placeholder="Enter Your subject" required >
+
+              <textarea name="message" id="" cols="10" rows="10" placeholder="Your Message"></textarea>
+
+              <input type="submit" value="send" class="btn" id="button">
+
+            </form>
+          </div>
+     </section class="copyright" >
+          
+        <div class="copyright">
+          <p> Copyright © 2023 Lalit Pawar.<i class='bx bxs-heart'></i> All rights reserved.</p>
+        </div>
+
+     <section>
+
+     </section>
+       
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer.", "Java Developer.", "Blockchain Developer."],
+        typeSpeed: 50,
+      });
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <form name="submit-to-google-sheet">
+      <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw03bdYlAPr8IMQEBnheJbAeIYEuqV1jTSt2vy8r7r9yO5ihz-VKSJD3nA-tnXswKLWgQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>

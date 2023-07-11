@@ -1,0 +1,693 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(19, 19, 68);
+}
+
+nav ul{
+
+    display: flex;
+    justify-content: center;
+}
+
+nav ul  li{
+
+
+    text-decoration: none;
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+
+    color: rgb(75, 75, 200);
+    font-size: 1.05rem;
+}
+
+.left{
+
+    font-size: 1.5rem;
+}
+
+
+.first_section{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.first_section div{
+
+    width: 36%;
+}
+
+
+.left_section{
+
+   font-size: 1.6rem;
+   
+  
+}
+
+.left_section .buttons{
+
+     display: flex;
+     width: 280px;
+    height: 100px;
+    
+}
+
+.left_section .btn-1{
+
+    display: inline-block;
+    font-size: 11px;
+    padding: .8rem .8rem;
+    background-color: aqua;
+    color: rgb(27, 3, 3);
+    border-radius: 8px ;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 20px;
+    margin-right: 20px;
+    
+ }
+
+ .left_section .btn-2{
+
+    display: inline-block;
+    font-size: 12px;
+    padding: .8rem .8rem;
+    background-color: aqua;
+    color: rgb(27, 3, 3);
+    border-radius: 8px ;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 130px;
+    height: 20px;
+  
+    
+    
+   
+    
+}
+
+.right_section img{
+
+    width: 80%;   
+}
+
+.purple{
+
+    color: rgb(170, 107, 220);
+}
+
+.text_grey{
+
+     color: gray;
+}
+
+#element{
+
+    color: rgb(170, 107, 220);
+}
+
+.second_section{
+
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+                         
+}
+.second_section .box{
+
+    height: 4px;
+    background: white;
+    margin: 56px 0;
+    width: 80vw;
+
+}
+
+/*************** About **********/
+
+
+
+.second_section{
+
+    padding: 60px 0;
+    margin-left: 40px;
+}
+
+.second_section .container{
+
+
+    width: 1000px;
+}
+
+.row{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.abt_col-1{
+
+    flex-basis: 40%;
+
+}
+
+.abt_col-1 img{
+
+     width: 100%;
+     border-radius: 10px;
+}
+
+.abt_col-2{
+
+    flex-basis: 55%;
+}
+
+.sub_title{
+
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+}
+
+.tab-titles{
+
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.tab-links::after{
+
+    content: '';
+    width: 0;
+    height: 4px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+
+     width: 50%;
+}
+
+.tab-contents ul li{
+    
+     list-style: none;
+     margin: 10px 0 ;
+}
+
+.tab-contents ul li span{
+
+     color: #b54769;
+     font-size: 15px;
+}
+
+.tab-contents{
+
+    display: none;
+
+}
+
+.tab-contents.active-tab{
+
+      display: block;
+}
+
+/******************* Skills ******************/
+
+.Skills h2{
+
+    font-size: 50px;
+    margin-bottom: 3rem;
+   
+    text-align: center;
+}
+
+.skills_container{
+
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 10px;
+}
+
+.skills_container .skills_box{
+
+    display: flex;
+    width: 350px;
+    height: 400px;
+    border-radius: 2rem;
+    text-align: center;
+    border: .1rem solid blueviolet;
+    transition: .4s ease;
+   
+}
+.skills_container .skills_box{
+
+    display: flex;
+    width: 350px;
+    height: 400px;
+    border-radius: 2rem;
+    text-align: center;
+    border: .1rem solid blueviolet;
+    transition: .4s ease;
+   
+}
+.skills_container .skills_box{
+
+    display: block;
+    width: 350px;
+    height: 400px;
+    border-radius: 2rem;
+    text-align: center;
+    border: .1rem solid blueviolet;
+    transition: .4s ease;
+   
+}
+
+.skills_box:hover{
+
+     border-color: rgb(119, 28, 119);
+     transform: scale(1.03);
+}
+
+.skills_box i{
+
+    font-size: 6rem;
+    color: aqua;
+    text-align: center; 
+}
+
+.skills_box h3{
+
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+.skills_box p{
+
+    font-size: 18px;
+    text-align: center;
+    margin-top: 14px;
+    padding: 4px;
+}
+
+
+.skills_box .btn{
+
+    display: inline-block;
+    font-size: .5rem;
+    padding: 12px 12px;
+    margin-top: 20px;
+    background-color: aqua;
+    color: rgb(27, 3, 3);
+    border-radius: 8px ;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+*/
+
+/********* Portfolio **************/
+
+.portfolio{
+
+     margin-top: 50px;
+}
+
+.portfolio .heading{
+
+     margin-bottom: 4rem;
+     
+     justify-content: center;
+     font-size: 50px;
+     margin-top: 20px;
+     text-align: center;
+}
+
+.portfolio_container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 60px;
+    
+}
+
+.portfolio_container .portfolio_box{
+
+       position: relative;
+       border-radius: 1.3rem;
+       overflow: hidden;
+       box-shadow: 1 1 1rem;
+       display: flex;
+       margin-left: 20px;
+       width: 90%;
+}
+    
+.portfolio_box img{
+
+    width: 100%;
+    transition: .5s ease;
+}
+
+.portfolio_box:hover img{
+    
+     transform: scale(1.1);
+     
+
+}
+
+.portfolio_box .portfolio_layer{
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(rgb(0,0,0,.1),aqua);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      transform: translateY(1000%);
+      transition: .4s ease;
+
+}
+
+.portfolio_box:hover .portfolio_layer{
+ 
+     
+    transform: translateY(0);
+}
+
+.portfolio_layer h4{
+
+    font-size: 1.5rem;
+}
+
+.portfolio_layer p{
+
+    font-size: .9rem;
+
+}
+
+.portfolio_layer a{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.portfolio_layer a i{
+
+    font-size: 2rem;
+    color: #fff;
+}
+
+/************ Contact ******************/ 
+
+.contact h2{
+
+     margin-top: 40px;
+     text-align: center;
+      font-size: 50px;
+      color: rgb(22, 194, 194);   
+}
+
+.contact_container{
+
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      
+
+}
+
+.contact_container form{
+
+      width: 670px;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+      border-radius: 15px;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(12px);
+      flex-wrap: wrap;
+      margin-top: 100px;
+      margin-bottom: 150px;
+
+   
+
+}
+
+.contact_container form input{
+       
+      width: 290px;
+      height: 40px;
+      padding-left: 10px;
+      outline: none;
+      border: none;
+      font-size: 18px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid #fff;
+      color: aqua;
+}
+
+.contact_container form input::placeholder{
+
+     color: #ddd;
+
+}
+
+.contact_container form #name,
+.contact_container form #email,
+.contact_container form #number,
+.contact_container form #subject{
+
+     margin-left: 20px;
+}
+
+.contact_container form textarea{
+
+      background: none;
+      border: none;
+      border-bottom: 2px solid #fff;
+      font-weight: 200;
+      font-size: 18px;
+      padding: 10px;
+      outline: none;
+      min-width: 600px;
+      max-width: 600px;
+      min-height: 80px;
+      max-height: 80px;
+      color: aqua;
+     
+
+
+}
+
+.contact_container form textarea::placeholder{
+
+    color: #ddd;
+
+}
+
+textarea::-webkit-scrollbar{
+
+     width: 1rem;
+}
+
+textarea::-webkit-scrollbar-thumb{
+
+    background-color: rgba(194,194,194,0.713);
+}
+
+.contact_container form #button{
+
+     border: none;
+     background: none;
+     border-radius: 8px;
+     color: rgb(27, 3, 3);
+     margin-top: 20px;
+     font-weight: 400;
+     font-size: 20px;
+     background-color: aqua;
+     padding: 0;
+     width: 100px;
+     cursor: pointer;
+}
+
+.contact_container form #button:hover{
+
+      opacity: 0.9;
+}
+
+/********** Copyright **************/
+
+.copyright{
+
+    width: 100%;
+    height: 10px;
+    text-align: center;padding: 25px 0;
+    background: blueviolet;
+    font-weight: 300;
+    margin-top: 20px;
+
+
+}
+
+/**********  Rsponsiveness **********/
+/* Add responsive styles for devices with a maximum width of 600px (mobile phones) */
+@media(max-width: 600px){
+
+    .navbar{
+       width: 280%;
+       text-align: center;
+       
+   
+    }
+    .navbar .left{
+
+         margin-left: 0px;
+    }
+    nav ul li a{
+
+        
+        background-color: rgb(19, 19, 68);
+        font-size:  20px;
+      
+      
+    }
+    }
+
+
+
+
+    @media(max-width: 600px){
+        
+        .first_section{
+
+            width: 280%;
+
+        }
+
+        .second_section p{
+
+            font-size: 14px;
+            padding-top: 0 0 0 0;
+        }
+
+        #Skills .heading{
+
+           justify-content: center;
+            margin-bottom: 30px;
+            font-size: 40px;
+           
+        }
+
+        .skills_container{
+
+            width: 280%;
+        }
+
+        .skills_container .skills_box{
+             
+            width: 100%;
+            width: 340px;
+            height: 380px;
+        }
+
+
+        .portfolio_container{
+
+            width: 280%;
+        }
+
+        .portfolio_container .heading{
+
+            text-align: center;
+        }
+
+        .contact{
+
+            width: 280%;
+
+        }
+        .contact form{
+
+            margin-bottom: 30px;
+        }
+
+        .copyright{
+
+            width: 280%;
+
+        }
+
+
+}
